@@ -1,0 +1,5 @@
+pluginname=Sorm2Form
+pluginclassname=Sorm2formPlugin
+origin=intelec
+version=1.0
+studipMinVersion=2.4
