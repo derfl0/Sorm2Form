@@ -38,6 +38,7 @@
                         <select name='type[<?= $field['name'] ?>]'>
                             <option value='text' <?= $type[$field['name']] == 'text' ? 'selected' : '' ?>>Text</option>
                             <option value='hidden' <?= $type[$field['name']] == 'hidden' ? 'selected' : '' ?>>Ausgeblendet</option>
+                            <option value='password' <?= $type[$field['name']] == 'password' ? 'selected' : '' ?>>Passwort</option>
                             <option value='checkbox' <?= $type[$field['name']] == 'checkbox' ? 'selected' : '' ?>>Checkbox</option>
                         </select>
                     </label>
