@@ -1,5 +1,5 @@
     <label>
-        <input type='checkbox' name='<?= $name ?>' value='1' <?= '<?= '.$value.' ? "checked" : "" ?>' ?>>
+        <input type='checkbox' name='<?= $name ?>' value='1' <?= '<?= $'.$value.' ? "checked" : "" ?>' ?>>
         <?= "<?" ?>= _('<?= $fulltext ?>') ?>
     </label>
 
